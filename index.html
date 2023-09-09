@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;">
+<canvas id="graph" width="0" height="0" style="background-color: black; border:1px solid #ffffff;"></canvas>
+<div id="buttonContainer">
+    <div class="roundDivButton" type="button" id="menu"><h1 id=menuLabel class="text"></h1></div>
+    <div class="roundDivButton" type="button" id="home"><h1 id=homeLabel class="text thinText"></h1></div>
+</div>
+<div>
+    <span class="UI" id="functionLabel" style="color: white">Function:</span>
+    <input class="UI" id="formula" type="text" ></input>
+    <span class="UI" id="xFunctionLabel"style = "display: none;" style="color: white;">X Function:</span>
+    <input class="UI" id="xFormula"style = "display: none;" type="text"></input>
+    <span class="UI" id="yFunctionLabel"style = "display: none;" style="color: white;">Y Function:</span>
+    <input class="UI" id="yFormula"style = "display: none;" type="text"></input>
+    <span class="UI" id="XBoxLabel" style="color: white">X-Val:</span>
+    <input class="UI" id="XBox" type="text"></input>
+    <span class="UI" id="ScaleLabel" style="color: white">Scale(px/unit):</span>
+    <input class="UI" id="scale" type="text"></input>
+    <input class="UI" type="button" id="settingsButton" value="Settings"></input>
+    <span class="UI" id="settingsMenu">
+        <input type="button" id="angleMode" value="Degrees"></input>
+        <!-- <input type="button" id="coordinateMode" value="Polar"></input> -->
+        <span id="windowLabel" style="color: white">Graph to:</span>
+        <input id="window" type="text"></input>
+        <input type="button" id="toggleGrid" value="Axes"></input>
+        <!-- <input type="button" id="centerGrid" value="Center"></input> -->
+        <input type="button" id="darkMode" value="Light Mode"></input>
+    </span>
+    <input class="UI" type="button" id="enter" value="Enter"></input>
+    <input class="UI" type="button" id="clear" value="Clear"></input>
+    <span class="UI" id="functionList" style="color: white"></span>
+</div>
+<div class="UI" id="currentCoordinates" style="color: white;text-align: left;"></div>
+<script src="Math.js"></script>
+<script src="index.js"></script>
+</body>
+</html>	

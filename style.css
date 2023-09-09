@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Segoe UI Universal";
+    src: url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2");
+  }
+
+.text{
+    font-family: 'Segoe UI Universal';
+    color: white;
+}
+
+.thinText {
+    font-weight: 1;
+    line-height: 1.4;
+}
+
+.menuPopUp {
+    position: absolute;
+    z-index: 9;
+    left:15px;
+    top:15px;
+    background-color: rgba(255,255,255,0.1);
+    border-color: white;
+    height: auto;
+    width: auto;
+    border-radius: 3px;
+    margin: none;
+    padding: none;
+}
+
+.functionDiv {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(255,255,255,0.1);
+    border-color: white;
+    height: auto;
+    border-radius: 3px;
+    margin: none;
+    padding: none;
+}
+
+.functionInput{
+    position: relative;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    height: 25px;
+    line-height: 0;
+    border-color: #736b5e;
+    color: #e8e6e3;
+    background-color: #181a1b;
+}
+
+#buttonContainer{
+    position: absolute;
+    right:18px;
+    top:10px;
+    width: 50px;
+    height: auto;
+    padding: none;
+    margin: 0px;
+}
+
+.roundDivButton{
+    position: relative;
+    bottom:15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    text-align: center;
+    line-height: 1.4;
+    user-select: none;
+}
+
+.roundDivButton:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+
+.addFunction {
+    height: 30px;
+    width:100%;
+    min-width: 150px;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    user-select: none;
+    line-height: 0.7;
+    text-align: center;
+    margin: none;
+    padding: none;
+}
+
+.addFunction:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+
+body{
+    overflow: hidden;
+}
+.UI{
+    zoom: 150%;
+}
+
+.error {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+  }
